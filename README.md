@@ -1,52 +1,51 @@
 # 🐹 Whack-a-Mole Game
 
-เกม **ตีตัวตุ่น (Whack-a-Mole)** เป็นโปรเจกต์เกม Desktop ที่พัฒนาด้วยภาษา **Java** โดยใช้ **NetBeans IDE** ในการพัฒนา
+**Whack-a-Mole Game** is a desktop game developed using **Java** and **NetBeans IDE**.
 
-ผู้เล่นจะต้องกดหรือคลิกตัวตุ่นที่ปรากฏขึ้นภายในพื้นที่เกมให้ได้มากที่สุด ภายในเวลาหรือเงื่อนไขที่กำหนด โดยระบบจะทำการนับคะแนนจากตัวตุ่นที่ผู้เล่นสามารถตีได้
+The game is inspired by the classic Whack-a-Mole concept, where players need to hit moles that appear within the game area to earn points.
 
-โปรเจกต์นี้จัดทำขึ้นเพื่อฝึกการเขียนโปรแกรมเชิงวัตถุ (Object-Oriented Programming) ด้วยภาษา Java รวมถึงการออกแบบโครงสร้างของเกมและการจัดการ Event จากการโต้ตอบของผู้เล่น
+This project was created as a programming exercise to practice **Java programming, Object-Oriented Programming (OOP), GUI development, and event handling**.
 
 ---
 
 ## 🎮 Game Overview
 
-**Whack-a-Mole** เป็นเกมแนว Casual Game ที่มีรูปแบบการเล่นไม่ซับซ้อน แต่เน้นการตอบสนองของผู้เล่น
+The objective of the game is simple: **hit as many moles as possible**.
 
-### วิธีเล่น
+### How to Play
 
-1. เริ่มเกม
-2. ตัวตุ่นจะปรากฏขึ้นภายในพื้นที่เกม
-3. ผู้เล่นกด/คลิกตัวตุ่นที่ปรากฏ
-4. เมื่อสามารถตีตัวตุ่นได้ ระบบจะเพิ่มคะแนน
-5. ผู้เล่นพยายามทำคะแนนให้ได้มากที่สุด
+1. Start the game.
+2. A mole appears within the game area.
+3. Click the mole to hit it.
+4. Successfully hitting a mole increases the score.
+5. Try to achieve the highest score possible.
 
 ---
 
 ## ✨ Features
 
-* 🐹 ระบบตัวตุ่นสำหรับเกม Whack-a-Mole
-* 🖱️ รองรับการโต้ตอบผ่าน Mouse/Event
-* 🏆 ระบบนับคะแนน
-* 🎮 รูปแบบการเล่นที่เข้าใจง่าย
-* 🪟 พัฒนาเป็น Desktop Application
-* 🧩 ออกแบบโครงสร้างโปรแกรมด้วยแนวคิด Object-Oriented Programming
+* 🐹 Whack-a-Mole gameplay
+* 🖱️ Mouse interaction
+* 🏆 Score tracking
+* 🎮 Simple and easy-to-understand gameplay
+* 🖥️ Desktop application
+* 🧩 Object-Oriented Programming structure
+* 🎨 Graphical User Interface (GUI)
 
 ---
 
 ## 🛠️ Technologies
 
-| Technology           | Description            |
-| -------------------- | ---------------------- |
-| ☕ Java               | ภาษาหลักที่ใช้พัฒนา    |
-| 🟦 NetBeans          | IDE สำหรับพัฒนาโปรแกรม |
-| 🖥️ Java Desktop GUI | ส่วนติดต่อผู้ใช้ของเกม |
-| 🧩 OOP               | แนวคิดการออกแบบโปรแกรม |
+| Technology      | Purpose                      |
+| --------------- | ---------------------------- |
+| ☕ Java          | Main programming language    |
+| 🟦 NetBeans IDE | Development environment      |
+| 🖥️ Java GUI    | Graphical user interface     |
+| 🧩 OOP          | Program structure and design |
 
 ---
 
 ## 📂 Project Structure
-
-โครงสร้างหลักของโปรเจกต์ประกอบด้วยไฟล์สำหรับเกมและเอกสารการออกแบบระบบ
 
 ```text
 Whack-a-mole-game/
@@ -60,13 +59,11 @@ Whack-a-mole-game/
 └── README.md
 ```
 
-> ชื่อโฟลเดอร์และไฟล์อาจแตกต่างจากโครงสร้างภายในเครื่องตามเวอร์ชันของโปรเจกต์
-
 ---
 
 ## 🧩 Class Diagram
 
-โปรเจกต์มีการออกแบบโครงสร้างของโปรแกรมด้วย **Class Diagram** เพื่อแสดงความสัมพันธ์ระหว่าง Class ต่าง ๆ ภายในเกม
+The project includes a **Class Diagram** to illustrate the structure and relationships between the classes used in the game.
 
 ![Whack-a-Mole Class Diagram](Whack_a_mloe_clssdiagram.PNG)
 
@@ -76,54 +73,53 @@ Whack-a-mole-game/
 
 ### Requirements
 
-ก่อนใช้งานโปรเจกต์ควรติดตั้ง
+Before running the project, make sure you have:
 
 * Java JDK
 * NetBeans IDE
 
-### วิธีเปิดโปรเจกต์
+### Installation
 
-1. Clone repository
+Clone the repository:
 
 ```bash
 git clone https://github.com/panupongsdn-rgb/Whack-a-mole-game.git
 ```
 
-2. เปิด **NetBeans IDE**
-
-3. เลือก
+Open the project using **NetBeans IDE**:
 
 ```text
 File → Open Project
 ```
 
-4. เลือกโฟลเดอร์ของโปรเจกต์
+Select the project folder, then:
 
-5. Build Project
-
-6. Run Project
+```text
+Build Project → Run Project
+```
 
 ---
 
 ## 🎯 Project Objectives
 
-โปรเจกต์นี้มีวัตถุประสงค์เพื่อฝึกทักษะด้าน
+This project was developed to practice:
 
-* การเขียนโปรแกรมภาษา Java
+* Java programming
 * Object-Oriented Programming (OOP)
-* การสร้าง Desktop Application
-* การจัดการ Event จากผู้ใช้งาน
-* การออกแบบ Class และความสัมพันธ์ระหว่าง Object
-* การสร้าง Logic สำหรับเกม
-* การจัดการคะแนนและสถานะของเกม
+* Desktop application development
+* GUI development
+* Event handling
+* Game logic
+* Score management
+* Class design and relationships
 
 ---
 
 ## 📚 Learning Outcomes
 
-จากการพัฒนาโปรเจกต์นี้ ผู้พัฒนาได้ฝึกการนำแนวคิดการเขียนโปรแกรมมาประยุกต์ใช้กับโปรแกรมที่มีการโต้ตอบกับผู้ใช้งานจริง
+Through this project, I gained practical experience in developing a Java desktop application and applying Object-Oriented Programming concepts.
 
-โดยเฉพาะการออกแบบ Class, การจัดการ Event, การควบคุม Game Logic และการสร้าง Graphical User Interface (GUI) ด้วย Java
+The project also helped me understand how to handle user interactions, implement game logic, design classes, and create a graphical user interface.
 
 ---
 
@@ -132,8 +128,10 @@ File → Open Project
 **Project:** Whack-a-Mole Game
 **Language:** Java
 **IDE:** NetBeans
-**Project Type:** Desktop Application
-**Repository:** [GitHub](https://github.com/panupongsdn-rgb/Whack-a-mole-game)
+**Type:** Desktop Application
+
+**Repository:**
+https://github.com/panupongsdn-rgb/Whack-a-mole-game
 
 ---
 
